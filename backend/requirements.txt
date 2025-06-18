@@ -3,4 +3,4 @@ flask-cors
 azure-cosmos
 PyJWT
 bcrypt
-
+dotenv

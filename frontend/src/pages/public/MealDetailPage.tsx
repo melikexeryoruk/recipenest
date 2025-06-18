@@ -14,6 +14,7 @@ const MealDetailPage = () => {
   if (meal.ingredients) {
     ingredients = meal.ingredients;
   }
+  console.log("ingredients: ", ingredients);
 
   const parts = meal.instructions?.split("STEP ");
   const steps: string[] = [];

@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Outlet, useNavigate } from "react-router-dom";
-import PlanningAdd from "./planning/PlanningAdd";
 import { useAuth } from "@/contexts/AuthProvider";
 import { useEffect } from "react";
 
@@ -33,7 +32,7 @@ const PlanningPage = () => {
       </aside>
 
       <main className="flex-1 p-6">
-        {<Outlet /> ? <Outlet /> : <PlanningAdd />}
+        <Outlet />
       </main>
     </div>
   );

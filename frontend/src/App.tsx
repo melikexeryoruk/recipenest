@@ -1,6 +1,4 @@
 import "./App.css";
-import FormikComponentForm from "./pages/test/FormikComponentForm";
-import FormikYupValidationForm from "./pages/test/FormikYupValidationForm";
 // import QuerySelectorForm from "./pages/test/QuerySelectorForm";
 // import MultipleStateForm from "./pages/test/MultipleStateForm";
 // // import TestRegister from "./pages/test/TestRegister";
@@ -19,8 +17,8 @@ function App() {
       {/* <CustomFormHookForm /> */}
       {/* <FormDataForm /> */}
       {/* <FormikForm /> */}
-      {/* <FormikComponentForm /> */}
-      <FormikYupValidationForm />
+      {/* <FormikComponentForm />
+      <FormikYupValidationForm /> */}
     </>
   );
 }

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.venv
+*.pem
+*.key
+.venv/
+env/
+venv/
+
+# Node (React)
+node_modules/
+*.log
+.env.local
+.env.development
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
